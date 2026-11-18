@@ -1,5 +1,5 @@
 [package]
-name = "black-hole-ascii-simulation"
+name = "black-hole-ascii"
 version = "0.1.0"
 edition = "2021"
 authors = ["PedroSmaxY <pedrohenrique.nv@icloud.com>"]

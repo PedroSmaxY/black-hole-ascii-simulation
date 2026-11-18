@@ -1,10 +1,10 @@
 //! Real-world CPU rendering benchmark across terminal resolutions and metrics.
 //! Run with: `cargo run --release --example bench`
 
-use black_hole_ascii_simulation::physics::black_hole::{BlackHole, MetricModel, OrbitingPlanet};
-use black_hole_ascii_simulation::render::buffer::{FrameBuffer, RenderMode};
-use black_hole_ascii_simulation::render::camera::Camera;
-use black_hole_ascii_simulation::render::raycaster::Raycaster;
+use black_hole_ascii::physics::black_hole::{BlackHole, MetricModel, OrbitingPlanet};
+use black_hole_ascii::render::buffer::{FrameBuffer, RenderMode};
+use black_hole_ascii::render::camera::Camera;
+use black_hole_ascii::render::raycaster::Raycaster;
 use std::time::Instant;
 
 fn bench_config(name: &str, cols: usize, lines: usize, metric: MetricModel) {

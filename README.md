@@ -1,10 +1,10 @@
-# black-hole-ascii-simulation
+# black-hole-ascii
 
 > **Real-Time 4D Kerr-Schild Relativistic Black Hole Simulator in Pure Rust**  
 > *Rendered directly in your terminal using 24-bit TrueColor ANSI Half-Block & ASCII Geodesic Raymarching — 100% CPU, zero GPU dependencies.*
 
 [![Rust](https://img.shields.io/badge/rust-1.80%2B-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org)
-[![Release](https://img.shields.io/badge/release-v0.1.0-blue.svg?style=flat-square)](https://github.com/PedroSmaxY/black-hole-ascii-simulation/releases)
+[![Release](https://img.shields.io/badge/release-v0.1.0-blue.svg?style=flat-square)](https://github.com/PedroSmaxY/black-hole-ascii/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=flat-square)]()
 [![Terminal](https://img.shields.io/badge/terminal-TrueColor%2024--bit-purple.svg?style=flat-square)]()
@@ -14,9 +14,9 @@
 ## Visual Showcase
 
 <p align="center">
-  <img src="assets/screenshots/demo.gif" alt="Intro Dive, Zen Mode & ASCII Transition" width="85%" />
+  <img src="assets/screenshots/demo.gif" alt="Intro Dive & Zen Mode in Half-Block" width="85%" />
   <br />
-  <em>Startup Intro Dive, Zen Mode autopilot, and real-time Half-Block to Classic ASCII transition (<code>[M]</code>).</em>
+  <em>Startup Intro Dive and Zen Mode autopilot in 24-bit TrueColor Half-Block mode (<code>▀</code>).</em>
 </p>
 
 <p align="center">
@@ -36,30 +36,23 @@
 ### Classic ASCII Output (`--ascii` or `[M]`)
 
 ```text
-                                                        %                 
-                                                                          
-                                                                          
-                              ......::.::......                          
-                            ..:==-:-=-=-=-::=-...                        
-                         ..:=:-+==x%%%%%%%x==+=-=:...                :   
-                       .:-:-=-*%*=**x%%%xxx=x%x=+-=::.                   
-                     ..::-==%x=*%x%%*+++x%%x#x+x%-+-+...                 
-                   ..:-.+=*x=*x%*:         :%%#%*%%==-=...               
-                ..::-:-++%x+%xx:             -%##*x%-+=-=.:....          
-     .  ....:-..:::=*+=*x=*%%x:               *###xx%*-*x---..:...... .  
-..::...:===:--**+--=**+--+%%%x*               .%####%xxxx+**x*+:--=-:..::-
-:---==---:=====::==+xxxxx*==+*x=+x%#####%%%%%%xx%#%%#%**+=+****=:-::==-=-:
-::-===-==-::..:::::-=++**++*xxx*+++++++++++===++x#**+-::::::::-=++=+++=-:-
--::::::::......::::--------+x+%*=---==========+x%x%**+++=---::::::::::::--
-::::::::::::--------:::::::--%=%**:..........+#%*%+--::::::::::::::::::::.
-..........................::-+**+x*xx*===+x%x%*xx+::......................
-::::::::::::::...............:-+-x*=***x***=x%=+-:...x.......:::::::::::::
-..............................::---==-+++-===-=::..........:::::::::::::::
-                 ..................::::-::::..............................
-  ........................................................................
-.                                                               ..........
-............=.............................................................
-                            ...................................           
+             :                                                          
+                                                  =                     
+                                                                        
+                                                                        
+                                    ...                                 
+                               .:=-::::-==:.                            
+                           ..::-=-*%%%%%x=-=--:.                        
+                          :=:+=%**%xxxxx#x*#++:=:                       
+                        :-:=-%=*x%:      x%#*#-+--:                     
+                    ::.-:=++x+%#-         .%#x%x:*-=.: ..               
+       ... .....:=--=*+-=x+:*#%*           %##%*x**x*:-=: :-:..:..      
+ .     ::-:::--=:-:===--==***xxx+*xxxx**x%%%#%++=***-::-==-:::---:: ... 
+ .... ...:::--::::..:---::----+*=:-------=+x%%++++=---:::--:--:..    ...
+      .....:.............::::-+=%*-::::--=%*%+-......x   ..::..::..     
+     :                    ....=-x+*%*xxxx+%=-:.....               ..    
+                                -:+==*+-=-=:.                           
+                                   .                                    
 ```
 
 ---
@@ -99,12 +92,12 @@ As $M \to 0$, the event horizon contracts, blackbody Hawking radiation heats fro
 ## Installation & Running
 
 ### Option 1: Pre-built Binaries (Recommended)
-Download the latest release for **Windows**, **macOS (Apple Silicon / Intel)**, or **Linux (x64 / ARM64)** from the [Releases](https://github.com/PedroSmaxY/black-hole-ascii-simulation/releases) page and run it in any 24-bit TrueColor terminal (Windows Terminal, iTerm2, Ghostty, Kitty, WezTerm, Alacritty).
+Download the latest release for **Windows**, **macOS (Apple Silicon / Intel)**, or **Linux (x64 / ARM64)** from the [Releases](https://github.com/PedroSmaxY/black-hole-ascii/releases) page and run it in any 24-bit TrueColor terminal (Windows Terminal, iTerm2, Ghostty, Kitty, WezTerm, Alacritty).
 
 ### Option 2: Build from Source (Rust 1.80+)
 ```bash
-git clone https://github.com/PedroSmaxY/black-hole-ascii-simulation.git
-cd black-hole-ascii-simulation
+git clone https://github.com/PedroSmaxY/black-hole-ascii.git
+cd black-hole-ascii
 cargo run --release
 ```
 

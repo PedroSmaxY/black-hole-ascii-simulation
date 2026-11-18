@@ -1,6 +1,6 @@
-use black_hole_ascii_simulation::app::App;
-use black_hole_ascii_simulation::render::buffer::RenderMode;
-use black_hole_ascii_simulation::render::hud::Lang;
+use black_hole_ascii::app::App;
+use black_hole_ascii::render::buffer::RenderMode;
+use black_hole_ascii::render::hud::Lang;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
