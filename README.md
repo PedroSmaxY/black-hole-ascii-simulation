@@ -30,7 +30,7 @@
   <img src="assets/screenshots/hawking_evap.png" alt="Hawking Evaporation" width="48%" />
   <img src="assets/screenshots/ascii_mode.png" alt="Classic TrueColor ASCII Mode" width="48%" />
   <br />
-  <em>Left: Hawking Evaporation final burst (<code>[E]</code>) — gravitational distortions vanish into a spherical gamma-ray shockwave before time rewinds.<br />Right: Classic Monospace ASCII Mode (<code>[M]</code>), halving pixel count for maximum frame rate.</em>
+  <em>Left: Hawking Evaporation Warp (<code>[E]</code>) — contracting event horizon &amp; dissipating accretion disk before final collapse.<br />Right: Classic Monospace ASCII Mode (<code>[M]</code>), halving pixel count for maximum frame rate.</em>
 </p>
 
 ### Classic ASCII Output (`--ascii` or `[M]`)
