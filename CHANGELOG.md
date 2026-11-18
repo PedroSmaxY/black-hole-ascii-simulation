@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2026-11-18
+
+### Added
+- **Windows Executable Icon**: Embedded `256x256` Kerr black hole `.ico` via `build.rs` and `winres`.
+- **Refined Visual Showcase**: 100% Half-Block `demo.gif`, 5×7 bitmap `ascii_mode.png`, and final Hawking shockwave `hawking_evap.png`.
+
 ## [0.1.0] - 2026-11-17
 
 ### Added

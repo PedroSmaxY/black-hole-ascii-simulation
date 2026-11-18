@@ -1,6 +1,6 @@
 [package]
 name = "black-hole-ascii"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["PedroSmaxY <pedrohenrique.nv@icloud.com>"]
 description = "Gargantua-class relativistic black hole simulator in TrueColor ANSI Half-Block geodesic raymarching"
@@ -11,6 +11,9 @@ categories = ["command-line-utilities", "science", "simulation", "rendering"]
 [dependencies]
 crossterm = "0.28"
 rayon = "1.10"
+
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1"
 
 [profile.release]
 opt-level = 3

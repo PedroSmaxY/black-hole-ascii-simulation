@@ -4,7 +4,7 @@
 > *Rendered directly in your terminal using 24-bit TrueColor ANSI Half-Block & ASCII Geodesic Raymarching — 100% CPU, zero GPU dependencies.*
 
 [![Rust](https://img.shields.io/badge/rust-1.80%2B-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org)
-[![Release](https://img.shields.io/badge/release-v0.1.0-blue.svg?style=flat-square)](https://github.com/PedroSmaxY/black-hole-ascii/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.0-blue.svg?style=flat-square)](https://github.com/PedroSmaxY/black-hole-ascii/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=flat-square)]()
 [![Terminal](https://img.shields.io/badge/terminal-TrueColor%2024--bit-purple.svg?style=flat-square)]()
@@ -30,7 +30,7 @@
   <img src="assets/screenshots/hawking_evap.png" alt="Hawking Evaporation" width="48%" />
   <img src="assets/screenshots/ascii_mode.png" alt="Classic TrueColor ASCII Mode" width="48%" />
   <br />
-  <em>Left: Hawking Evaporation Warp (<code>[E]</code>) as mass shrinks and horizon temperature spikes into blue-white radiation.<br />Right: Classic Monospace ASCII Mode (<code>[M]</code>), halving pixel count for maximum frame rate.</em>
+  <em>Left: Hawking Evaporation final burst (<code>[E]</code>) — gravitational distortions vanish into a spherical gamma-ray shockwave before time rewinds.<br />Right: Classic Monospace ASCII Mode (<code>[M]</code>), halving pixel count for maximum frame rate.</em>
 </p>
 
 ### Classic ASCII Output (`--ascii` or `[M]`)
